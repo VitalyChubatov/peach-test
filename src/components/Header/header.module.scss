@@ -1,0 +1,135 @@
+.header {
+    text-align: center;
+}
+
+.bg {
+    background-image: url(../img/bg.png);
+    width: 1250px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+        .bgwrapper {
+            margin-top: 147px ;
+            margin-left: 60px;
+            width: 700px;
+            text-align: start;
+            p{
+                padding: 3px;
+                font-weight: 600;
+                color: #444444;
+                font-size: 56px;
+                 line-height:1;
+                
+            }
+            button {
+                margin-top: 45px;
+                padding: 20px;
+                border:  none;
+                background: #B01736;
+                border-radius: 8px;
+                color: white;
+                width: 120px;
+                font-size: 16px; 
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+        
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-bottom: none;
+    padding: 30px;
+    img {
+         margin: 0 40px;
+    }
+    ul {
+        margin: 0 40px;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            margin-left: 30px;
+            list-style: none;
+        }
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .bg {
+    width: 1050px;
+    height: 600px;
+
+    }
+}
+
+@media (max-width: 992px) {
+.bg {
+    width: 800px;
+    height: 600px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .bg {
+    width: 600px;
+    // margin-left: 100px;
+    height: 500px;
+    .bgwrapper {
+        width: 100%;
+        margin-left: 0px;
+        p {
+            // margin-top: 100px;
+            width: 300px;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    }
+    .nav {
+        border: none;
+        width: 120%;
+        img {
+           padding-bottom: 15px;
+            // margin: 0 100px;
+        }
+    } 
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 5px;
+        width: 100%;
+        ul {
+            margin: 0 0px;
+        } 
+    }
+      .bg {
+    width: 105%;
+    height: 500px;
+    .bgwrapper {
+        width: 108%;
+            display: flex;
+        flex-direction: column;
+            justify-content: centsr;
+        margin: 0px;
+        
+            p {
+                margin-top: 100px;
+                
+        
+        }
+    }
+    }
+    
+}
