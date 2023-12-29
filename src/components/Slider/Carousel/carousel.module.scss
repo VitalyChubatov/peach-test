@@ -34,11 +34,12 @@ overflow: hidden;
 
 @media (max-width: 480px) {
     .main_container {
-        width: 90%;
-        height: 250px;
+        width: 67%;
+        height: 200px;
     }
     .group {
-        width: 280px;
+        width: 100%;
+        margin-bottom: 30px;
     }
     
 }

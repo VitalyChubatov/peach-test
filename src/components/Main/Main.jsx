@@ -617,7 +617,7 @@ if (btn.innerHTML === 'Владивосток') {
 					кибербезопасности, а также широкий спектр IT-услуг.
 				</p>
 			</article>
-			<div className={styles.group}>
+			<section className={styles.group}>
 				{array.map((el, index) => (
 					<motion.div
 						variants={cartAnimation}
@@ -631,7 +631,7 @@ if (btn.innerHTML === 'Владивосток') {
 						<p className={styles.subtext}>{el.subtext}</p>
 					</motion.div>
 				))}
-			</div>
+			</section>
 			<aside>
 				<form>
 					<div>

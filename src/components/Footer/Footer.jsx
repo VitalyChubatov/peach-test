@@ -18,6 +18,7 @@ import icon5 from '../img/imgfooter/imgIcon/5.png'
 import icon6 from '../img/imgfooter/imgIcon/6.png'
 import icon7 from '../img/imgfooter/imgIcon/7.png'
 import icon8 from '../img/imgfooter/imgIcon/8.png'
+import { FiSliders } from 'react-icons/fi'
 
 
 
@@ -59,7 +60,7 @@ export const Footer = () => {
 				transition: { delay: custom * 1 },
 			}),}
   return (
-		<div className={styles.wrapper_footer}>
+		<footer className={styles.wrapper_footer}>
 			<h1 className={styles.h1}>Направление Бизнеса</h1>
 			<div className={styles.footer}>
 				{bussines.map(el => (
@@ -137,6 +138,6 @@ export const Footer = () => {
 					</div>
 				</div>
 			</motion.div>
-		</div>
+		</footer>
 	)
 }
