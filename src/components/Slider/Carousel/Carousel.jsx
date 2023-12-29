@@ -46,9 +46,9 @@ export const Carousel = ({ children }) => {
   return (
     <>
 			<div className={styles.group}>
-				<div>
+				
 					<h1>Корпоративная жизнь</h1>
-				</div>
+				
 				<div className={styles.group_arrow}>
 					<FiArrowLeftCircle onClick={handleClickLeftArrow} />
 					<FiArrowRightCircle onClick={handleClickRightArrow} />
